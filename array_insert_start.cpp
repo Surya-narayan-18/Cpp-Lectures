@@ -5,6 +5,7 @@ int main(){
     for(int i=4;i>0;i--){
         arr[i]=arr[i-1];
     }
+    cout<<"Enter Element : ";
     cin>>arr[0];
     for(int i=0;i<5;i++)
     cout<<arr[i]<<" ";
